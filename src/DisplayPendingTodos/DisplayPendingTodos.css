@@ -1,0 +1,58 @@
+.todocontainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.heading {
+    font-size: 22px;
+    background-color: #000;
+    color: #fff;
+    /* border-radius: 30px; */
+    width: 400px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 40px auto 20px auto;
+}
+
+.container,
+.headings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.container {
+    margin: 9px 0;
+}
+
+.headingTitle {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 10px 5px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button input {
+    width: 105px;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button input:hover {
+    background-color: var(--i);
+    color: #000;
+    font-weight: bolder;
+}

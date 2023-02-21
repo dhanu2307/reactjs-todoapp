@@ -1,0 +1,10 @@
+.completedheading,
+.completedcontainer {
+    grid-template-columns: 1fr 2fr 2fr 1fr !important;
+}
+
+.task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
